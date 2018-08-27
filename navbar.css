@@ -1,0 +1,11 @@
+/* NAVBAR */
+
+#masthead.site-header,
+#masthead.site-header #nav-wrapper.navbar-fixed-top {
+  background: #e6efed;
+}
+
+#masthead.site-header #site-title .col-sm-8 #uc-site-header #uc-site-title a,
+nav.navbar-default .navbar-nav>li>a {
+  color: #525f5b;
+}

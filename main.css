@@ -1,46 +1,49 @@
+@import 'navbar.css';
 @import 'research.css';
 @import 'home.css';
 /* Reused CSS Goes Here */
-html,body {
-background-color:#E6EFED!important
+
+html,
+body {
+  background-color: #E6EFED !important
 }
 
 #masthead {
-background:#E6EFED
+  background: #E6EFED
 }
 
 .uc-site-title {
-color:#000
+  color: #000
 }
 
 .sl-header {
-color:#525F5B!important;
-font-family:proxima_nova_light;
-/*font-family:ProximaNova-SemiBold;*/
-font-size:76px!important;
-font-weight:600;
-text-align:left;
-margin-bottom:0
+  color: #525F5B !important;
+  font-family: proxima_nova_light;
+  /*font-family:ProximaNova-SemiBold;*/
+  font-size: 76px !important;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 0
 }
 
 .sl-header-caption {
-color:#525F5B;
-font-size:31px;
-font-weight:600;
-height:37px;
-text-align:left;
-width:550px
+  color: #525F5B;
+  font-size: 31px;
+  font-weight: 600;
+  height: 37px;
+  text-align: left;
+  width: 550px
 }
 
 .sl-header-sub {
-color:#363A39;
-font-family:proxima_nova_light;
-font-size:16px;
-font-weight:400;
-text-align:left;
-margin-top:0
+  color: #363A39;
+  font-family: proxima_nova_light;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 0
 }
 
 .sl-header-sub a {
-text-decoration:none
+  text-decoration: none
 }
