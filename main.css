@@ -1,49 +1,62 @@
-@import 'navbar.css';
-@import 'research.css';
-@import 'home.css';
+@import "navbar.css";
+@import "research.css";
+@import "home.css";
+/* Colors:
+Yellow: #F5E333
+Purple: #9893CD
+Blue: #3392EF
+Orange: #F0672B
+Red: #E14433
+Green: 40CD3A
+Black: #363A39 [Body Text, Secondary Titles]
+Dark Gray: #525F5B [Main Titles/Links/Secondary Text]
+Gray: #E2E2E2
+Light Gray: #E6EFED [Page Backgrounds]
+Lightest Gray: #F2F9F7 */
+
 /* Reused CSS Goes Here */
 
 html,
 body {
-  background-color: #E6EFED !important
+  background-color: #e6efed !important;
 }
 
 #masthead {
-  background: #E6EFED
+  background: #e6efed;
 }
 
 .uc-site-title {
-  color: #000
+  color: #000;
 }
 
 .sl-header {
-  color: #525F5B !important;
+  color: #525f5b !important;
   font-family: proxima_nova_light;
   /*font-family:ProximaNova-SemiBold;*/
   font-size: 76px !important;
   font-weight: 600;
   text-align: left;
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
 .sl-header-caption {
-  color: #525F5B;
+  color: #525f5b;
   font-size: 31px;
   font-weight: 600;
   height: 37px;
   text-align: left;
-  width: 550px
+  width: 550px;
 }
 
 .sl-header-sub {
-  color: #363A39;
+  color: #363a39;
   font-family: proxima_nova_light;
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  margin-top: 0
+  margin-top: 0;
 }
 
 .sl-header-sub a {
-  text-decoration: none
+  text-decoration: none;
 }
