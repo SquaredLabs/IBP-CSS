@@ -1,0 +1,6 @@
+/* DIRECTIONS PAGE */
+
+.navbar-default .navbar-nav > .active > [href*="directions"] {
+  background: #525f5b;
+  border-color: #525f5b;
+}

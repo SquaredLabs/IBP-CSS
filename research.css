@@ -1,158 +1,170 @@
+/* RESEARCH PARTNERS PAGE */
+
+.navbar-default .navbar-nav>.active>[href*="partners"] {
+  background: #e14433;
+  border-color: #e14433;
+}
+
 /* Layover Image */
+
 .overlayImage {
-position:relative;
-width:20%;
-height:200px;
-display:inline-block
+  position: relative;
+  width: 20%;
+  height: 200px;
+  display: inline-block;
 }
 
 .pictureDisplay {
-display:block;
-width:20%;
-height:200px
+  display: block;
+  width: 20%;
+  height: 200px;
 }
 
 .textDisplay {
-color:#fff;
-font-size:20px;
-position:absolute;
-top:50%;
-left:50%;
-transform:translate(-50%,-50%);
-font-family:sans-serif
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: sans-serif;
 }
 
 .overlayFade {
-height:100%;
-width:20%;
-top:0;
-left:0;
-background-color:#ff946bbd
+  height: 100%;
+  width: 20%;
+  top: 0;
+  left: 0;
+  background-color: #ff946bbd;
 }
 
 .overlay {
-position:absolute;
-opacity:0;
-transition:all .3s ease;
-background-color:#008cba
+  position: absolute;
+  opacity: 0;
+  transition: all 0.3s ease;
+  background-color: #008cba;
 }
 
-.overlayImager:hover .overlay,.overlayImage:hover .overlayFade {
-opacity:1
+.overlayImager:hover .overlay,
+.overlayImage:hover .overlayFade {
+  opacity: 1;
 }
 
 .overlay h1 {
-font-size:1.5em;
-font-weight:800
+  font-size: 1.5em;
+  font-weight: 800;
 }
 
 /* Collapsible */
-input[type=checkbox] {
-position:absolute;
-top:-9999px;
-left:/* For mobile, it's typically better to position checkbox on top of clickable
+
+input[type="checkbox"] {
+  position: absolute;
+  top: -9999px;
+  left: /* For mobile, it's typically better to position checkbox on top of clickable
       area and turn opacity to 0 instead. */
--9999px
+  -9999px;
 }
 
 .displayText {
-opacity:0;
-background:green;
-width:400px;
-height:100px;
-line-height:100px;
-color:#fff;
-text-align:center
+  opacity: 0;
+  background: green;
+  width: 400px;
+  height: 100px;
+  line-height: 100px;
+  color: #fff;
+  text-align: center;
 }
 
-input[type=checkbox]:checked ~ .displayText {
-background:red;
-opacity:1
+input[type="checkbox"]:checked~.displayText {
+  background: red;
+  opacity: 1;
 }
 
 #content #page-page .widget.widget_siteorigin-panels-postloop .content-template-date {
-display:block;
-font-size:13px
+  display: block;
+  font-size: 13px;
 }
 
 .flex-container-column {
-display:flex;
-flex-direction:row;
-flex-wrap:wrap;
-justify-content:flex-start;
-margin-bottom:2em
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-bottom: 2em;
 }
 
 .item-flex:nth-child(2) {
-margin-top:3em
+  margin-top: 3em;
 }
 
 .item-flex:nth-child(3) {
-margin-top:1em
+  margin-top: 1em;
 }
 
 .item-flex:nth-child(4) {
-margin-top:2em
+  margin-top: 2em;
 }
 
 .item-flex {
-flex-basis:25%;
-display:flex;
-flex-direction:column
+  flex-basis: 25%;
+  display: flex;
+  flex-direction: column;
 }
 
 .each-box {
-color:#525F5B;
-font-size:20px;
-font-weight:600;
-text-align:left;
-height:250px;
-padding:1em;
-margin:5px
+  color: #525f5b;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  height: 250px;
+  padding: 1em;
+  margin: 5px;
 }
 
 /* Colors Classes */
+
 .each-box-yellow {
-background-color:#F5E333
+  background-color: #f5e333;
 }
 
 .each-box-red {
-background-color:#E14433
+  background-color: #e14433;
 }
 
 .each-box-blue {
-background-color:#3392EF
+  background-color: #3392ef;
 }
 
 .each-box-purple {
-background-color:#9893CD
+  background-color: #9893cd;
 }
 
 .each-box-green {
-background-color:#40CD3A
+  background-color: #40cd3a;
 }
 
 .each-box-orange {
-background-color:#F0672B
+  background-color: #f0672b;
 }
 
 /* Partner Display */
+
 .partner-flex-display {
-display:flex;
-flex-direction:column
+  display: flex;
+  flex-direction: column;
 }
 
 .partner-row-display {
-display:flex;
-flex-direction:row;
-justify-content:center
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .parter-single-display {
-height:auto;
-flex-basis:33%
+  height: auto;
+  flex-basis: 33%;
 }
 
 #pl-3296 {
-background-color:#E6EFED!important
+  background-color: #e6efed !important;
 }

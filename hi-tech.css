@@ -1,0 +1,6 @@
+/* Hi-TECH EQUIPMENT PAGE */
+
+.navbar-default .navbar-nav > .active > [href*="tech"] {
+  background: #e14433;
+  border-color: #e14433;
+}

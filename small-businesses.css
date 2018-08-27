@@ -1,0 +1,6 @@
+/* SMALL BUSINESSES PAGE */
+
+.navbar-default .navbar-nav > .active > [href*="small"] {
+  background: #3392ef;
+  border-color: #3392ef;
+}

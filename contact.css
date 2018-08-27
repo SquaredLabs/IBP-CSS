@@ -1,0 +1,6 @@
+/* CONTACT PAGE */
+
+.navbar-default .navbar-nav > .active > [href*="contact"] {
+  background: #40cd3a;
+  border-color: #40cd3a;
+}
