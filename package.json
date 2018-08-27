@@ -1,0 +1,22 @@
+{
+  "name": "ibp-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SquaredLabs/IBP-CSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SquaredLabs/IBP-CSS/issues"
+  },
+  "homepage": "https://github.com/SquaredLabs/IBP-CSS#readme",
+  "dependencies": {
+    "css-combine": "^1.0.0"
+  }
+}
