@@ -1,0 +1,6 @@
+/* WHO WE ARE PAGE */
+
+.navbar-default .navbar-nav > .active > [href*="who"] {
+  background: #9893cd;
+  border-color: #9893cd;
+}

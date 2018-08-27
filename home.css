@@ -1,67 +1,80 @@
 /* HOME PAGE */
+
+.navbar-default .navbar-nav>.active>[href="https://techpark.uconn.edu"] {
+  background: #f5e333;
+  border-color: #f5e333;
+}
+
+@media (min-width: 768px) {
+  #masthead.site-header #nav-wrapper .navbar-collapse .nav>li:first-child>a[href="https://techpark.uconn.edu"] {
+    padding-left: 25px;
+    margin-left: -25px;
+  }
+}
+
 .title-paragraph {
-position:absolute;
-top:5%;
-margin-left:7em;
-max-width:550px
+  position: absolute;
+  top: 5%;
+  margin-left: 7em;
+  max-width: 550px;
 }
 
 .title-paragraph .description {
-margin-top:13em
+  margin-top: 13em;
 }
 
 .equip-row-cell {
 }
 
 .equip-header {
-font-size:16px;
-color:#363A39;
-padding:.1em;
-margin:0
+  font-size: 16px;
+  color: #363a39;
+  padding: 0.1em;
+  margin: 0;
 }
 
 .equip-container {
-display:flex;
-justify-content:right;
-height:300px;
-position:relative
+  display: flex;
+  justify-content: right;
+  height: 300px;
+  position: relative;
 }
 
 .equip-icon {
-width:20%;
-height:30%;
-position:absolute;
-left:-1em;
-top:-1em
+  width: 20%;
+  height: 30%;
+  position: absolute;
+  left: -1em;
+  top: -1em;
 }
 
 .equip-content {
-width:calc(100% - 2em);
-height:calc(100% - 2em);
-align-self:flex-end;
-position:absolute
+  width: calc(100% - 2em);
+  height: calc(100% - 2em);
+  align-self: flex-end;
+  position: absolute;
 }
 
 .equip-desc {
-color:#525F5B;
-margin:0
+  color: #525f5b;
+  margin: 0;
 }
 
 .equip-name {
-color:#363A39;
-margin:0
+  color: #363a39;
+  margin: 0;
 }
 
 .equip-content hr {
-width:4em;
-color:#525F5B;
-border:2px solid #525F5B;
-margin-top:14px;
-margin-bottom:14px
+  width: 4em;
+  color: #525f5b;
+  border: 2px solid #525f5b;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
-@media(max-width:961px) {
-.equip-container {
-width:135%
-}
+@media (max-width: 961px) {
+  .equip-container {
+    width: 135%;
+  }
 }
