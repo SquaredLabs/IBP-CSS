@@ -96,16 +96,25 @@
 
 .research-centers-column {
   display: flex;
-  position: absolute;
   height: calc(100% - 2em);
+  flex-direction: column;
   width: 50%;
 }
 
 .research-centers-card {
   padding: 1em;
-  width: 100%;
-  position: absolute;
+  padding: 1em;
   height: 30%;
+  background-color: white;
+  margin: 0.6em;
+  justify-content: center;
+  display: flex;
+  transition: all 0.3s ease;
+}
+
+.research-centers-card:hover {
+  background-color: rgb(226, 226, 226);
+  padding: 0.3em;
 }
 
 .research-centers-card img {
@@ -113,6 +122,6 @@
   width: auto;
 }
 
-.research-centers-column:nth-last-child(){
+.research-centers-column:last-child{
   margin-top: 2em;
 }
