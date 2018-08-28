@@ -46,12 +46,7 @@ nav.navbar-default .navbar-nav > li > a {
 }.overlay h1 {
   font-size: 1.5em;
   font-weight: 800;
-}/* Collapsible */input[type="checkbox"] {
-  position: absolute;
-  top: -9999px;
-  left: 
-  -9999px;
-}.displayText {
+}/* Collapsible */.displayText {
   opacity: 0;
   background: green;
   width: 400px;
@@ -81,25 +76,68 @@ nav.navbar-default .navbar-nav > li > a {
   flex-basis: 25%;
   display: flex;
   flex-direction: column;
-}.each-box {
-  color: #525f5b;
-  font-size: 20px;
-  font-weight: 600;
-  text-align: left;
-  height: 250px;
+}.center-box {
+  height: 25%;
+  min-height: 275px;
+  min-width: 300px;
   padding: 1em;
   margin: 5px;
-}/* Colors Classes */.each-box-yellow {
+  position: relative;
+}.research-center > * {
+  transition: all 0.2s ease;
+}.center-name {
+  color: #525f5b;
+  font-size: 1em !important;
+  font-family: 'Proxima Nova';
+  font-weight: 700;
+  margin-top: 0;
+  text-align: left;
+  opacity: 1;
+  transition-delay: 0.1s;
+}.center-info {
+  opacity: 0;
+  height: 86%;
+  position: absolute;
+  width: 86%;
+  top: 14%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}.center-box:hover .center-name {
+  opacity: 0;
+  transition-delay: 0s;
+}.center-box:hover .center-info {
+  opacity: 1;
+  top: 7%;
+  transition-delay: 0.1s;
+}.center-data {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}.center-info p {
+  font-size: 0.75em;
+  font-family: 'proxima_nova_light';
+  margin-top: 0;
+}.center-box h2 {
+  font-weight: 700;
+  font-family: 'Proxima Nova';
+}.center-box .center-data p,
+.center-box .center-data h2 {
+  font-size: 0.6em;
+  margin-bottom: 0;
+}.center-box a {
+  color: inherit;
+}/* Colors Classes */.center-box-yellow {
   background-color: #f5e333;
-}.each-box-red {
+}.center-box-red {
   background-color: #e14433;
-}.each-box-blue {
+}.center-box-blue {
   background-color: #3392ef;
-}.each-box-purple {
+}.center-box-purple {
   background-color: #9893cd;
-}.each-box-green {
+}.center-box-green {
   background-color: #40cd3a;
-}.each-box-orange {
+}.center-box-orange {
   background-color: #f0672b;
 }/* Partner Display */.partner-flex-display {
   display: flex;
