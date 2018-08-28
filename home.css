@@ -94,13 +94,19 @@
   height: 500px;
 }
 
-.research-center-card {
+.research-centers-column {
+  display: flex;
+  position: absolute;
+  height: 100%;
+}
+
+.research-centers-card {
   padding: 1em;
   width: 50%;
   position: absolute;
   height: calc(100% - 2em);
 }
 
-.research-center-card:nth-last-child(){
+.research-centers-column:nth-last-child(){
   margin-top: 2em;
 }
