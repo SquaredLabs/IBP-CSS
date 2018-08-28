@@ -125,3 +125,50 @@
 .research-centers-column:last-child{
   margin-top: 2em;
 }
+
+.sl-news-img img {
+  width: 100%;
+}
+
+.sl-posts {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sl-posts article {
+  display: flex;
+  width: calc(50% - 0.8em);
+  padding: 0;
+  margin: 0.3em;
+  flex-direction: column;
+}
+
+.sl-posts article header{
+  width: 100%;
+}
+
+.sl-posts article header .entry-title{
+  width: 50%;
+  font-size: 20px;
+  display: inline-block;
+  margin: 0;
+  margin-left: 0.3em;
+}
+
+.sl-posts article header .entry-title a{
+  font-size: 16px;
+}
+
+.sl-posts article header img{
+  width: 40%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sl-posts article .entry-content {
+  height: 5em;
+  font-size: 12px;
+  display: inline-block;
+}
+
