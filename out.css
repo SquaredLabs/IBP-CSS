@@ -297,12 +297,16 @@ nav.navbar-default .navbar-nav > li > a {
 }.research-centers-column {
   display: flex;
   position: absolute;
-  height: 100%;
+  height: calc(100% - 2em);
+  width: 50%;
 }.research-centers-card {
   padding: 1em;
-  width: 50%;
+  width: 100%;
   position: absolute;
-  height: calc(100% - 2em);
+  height: 30%;
+}.research-centers-card img {
+  height: 100%;
+  width: auto;
 }.research-centers-column:nth-last-child() {
   margin-top: 2em;
 }/* Colors:
