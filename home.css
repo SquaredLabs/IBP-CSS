@@ -23,7 +23,16 @@
   margin-top: 13em;
 }
 
+.title-paragraph .description a {
+  color: white;
+}
+
+.title-paragraph .description a:hover {
+  color: rgb(199, 199, 199);
+}
+
 .equip-row-cell {
+
 }
 
 .equip-header {
