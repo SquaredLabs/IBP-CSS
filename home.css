@@ -172,3 +172,28 @@
   display: inline-block;
 }
 
+div.sl-videos iframe {
+  min-height: 30px;
+}
+
+div.sl-outreach-r1 {
+  padding-bottom: 0 !important;
+}
+div.sl-outreach-r1 {
+  padding-top: 0 !important;
+}
+
+.sl-outreach-r1 .panel-grid-cell{
+  width: 50% !important;
+  align-self: center;
+}
+
+.sl-outreach-r1 .panel-grid-cell div img{
+  width: 100% ;
+  align-self: center;
+}
+
+.sl-outreach-r2 .panel-grid-cell div img{
+  width: 100% ;
+  align-self: center;
+}
