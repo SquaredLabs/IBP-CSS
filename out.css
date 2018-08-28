@@ -119,7 +119,7 @@ nav.navbar-default .navbar-nav > li > a {
 }/* Hi-TECH EQUIPMENT PAGE */.navbar-default .navbar-nav > .active > [href*="tech"] {
   background: #e14433;
   border-color: #e14433;
-}/* SMALL BUSINESSES PAGE */.navbar-default .navbar-nav > .active > [href*="small"] {
+}/* SMALL BUSINESSES PAGE */.navbar-default .navbar-nav>.active>[href*="small"] {
   background: #3392ef;
   border-color: #3392ef;
 }/* WHO WE ARE PAGE */.navbar-default .navbar-nav > .active > [href*="who"] {
@@ -368,24 +368,33 @@ body {
   color: #525f5b !important;
   font-family: proxima_nova_light;
   /*font-family:ProximaNova-SemiBold;*/
-  font-size: 76px !important;
+  font-size: 4.768em !important;
   font-weight: 600;
   text-align: left;
   margin-bottom: 0;
 }.sl-header-caption {
   color: #525f5b;
-  font-size: 31px;
+  font-size: 1.953em;
   font-weight: 600;
-  height: 37px;
   text-align: left;
-  width: 550px;
+  margin-bottom: 1em;
 }.sl-header-sub {
   color: #363a39;
   font-family: proxima_nova_light;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 400;
   text-align: left;
-  margin-top: 0;
+  margin: 0;
+  line-height: 1.953 !important;
+}.sl-body {
+  color: #363a39;
+  font-family: proxima_nova_light;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: left;
+  margin: 1.25em 0;
 }.sl-header-sub a {
   text-decoration: none;
+}div.panel-row-style {
+  padding: 5em 0 !important;
 }
