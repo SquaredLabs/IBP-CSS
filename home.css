@@ -87,3 +87,20 @@
     width: 135%;
   }
 }
+
+.research-centers-container {
+  display: flex;
+  position: relative;
+  height: 500px;
+}
+
+.research-center-card {
+  padding: 1em;
+  width: 50%;
+  position: absolute;
+  height: calc(100% - 2em);
+}
+
+.research-center-card:nth-last-child(){
+  margin-top: 2em;
+}
