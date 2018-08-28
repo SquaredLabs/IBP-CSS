@@ -113,6 +113,125 @@ nav.navbar-default .navbar-nav > li > a {
   flex-basis: 33%;
 }#pl-3296 {
   background-color: #e6efed !important;
+}/* DIRECTIONS PAGE */.navbar-default .navbar-nav > .active > [href*="directions"] {
+  background: #525f5b;
+  border-color: #525f5b;
+}/* Hi-TECH EQUIPMENT PAGE */.navbar-default .navbar-nav > .active > [href*="tech"] {
+  background: #e14433;
+  border-color: #e14433;
+}/* SMALL BUSINESSES PAGE */.navbar-default .navbar-nav > .active > [href*="small"] {
+  background: #3392ef;
+  border-color: #3392ef;
+}/* WHO WE ARE PAGE */.navbar-default .navbar-nav > .active > [href*="who"] {
+  background: #9893cd;
+  border-color: #9893cd;
+}/* CONTACT PAGE */.navbar-default .navbar-nav > .active > [href*="contact"] {
+  background: #40cd3a;
+  border-color: #40cd3a;
+}#footers .simple-social-icons ul li a,
+#footers.simple-social-icons ul li a:hover,
+#footers .simple-social-icons ul li a:focus {
+  background: transparent!important;
+}#mega-footer .widget.simple-social-icons ul {
+  margin: 0;
+}#mega-footer .widget h2.widget-title {
+  font-family: 'proxima nova';
+}.icon-grid img {
+  width: auto!important;
+}.glyphicon-new-window {
+  display: none;
+}.entry-content .panel-layout .panel-grid:nth-child(1) .siteorigin-panels-stretch .widget_widget_sp_image .widget_sp_image-description {
+  display: none;
+}#masthead #nav-wrapper .navbar-collapse .nav .dropdown-menu a {
+  white-space: pre-line;
+}.people-row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 25px;
+  margin-bottom: 10px;
+}@media (max-width:767px) {
+  .people-row {
+    border-bottom: 0;
+  }
+}.people-row h3 {
+  margin-top: 0;
+  color: #649e9e;
+}.entry-content .panel-layout .panel-grid:nth-child(1) .siteorigin-panels-stretch .widget_widget_sp_image {
+  max-height: 800px;
+  overflow: hidden!important;
+}#masthead #nav-wrapper .navbar-collapse .nav > li.active::after,
+#masthead #nav-wrapper .navbar-collapse .nav > li.current-menu-ancestor::after {
+  display: none;
+}.blue-grid-boxes .accordion .panel-heading .panel-title a {
+  background-color: transparent;
+  color: #fff!important;
+  padding: 20px 20px 18px;
+}.blue-grid-boxes .accordion .panel {
+  background-color: transparent;
+  font-size: 14px!important;
+  color: #fff!important;
+  line-height: 1.5em;
+}.blue-grid-boxes .accordion .panel h6 {
+  font-size: 14px!important;
+  color: #fff!important;
+  line-height: 1.5em;
+}.blue-grid-boxes .accordion .panel h6 span {
+  color: #fff!important;
+}.blue-grid-boxes .accordion .panel-body {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0;
+}.blue-grid-boxes .accordion .panel-heading .panel-title a:hover {
+  background: transparent!important;
+  color: #3AC6F7!important;
+}.page-id-1462 .textwidget a {
+  color: #00b4fc!important;
+}p {
+  line-height: 140%!important;
+}h4 {
+  font-size: 22px!important;
+}h1 {
+  font-size: 40px!important;
+}/* ==== WebDev says - be careful with your CSS and using !important. The above code for p, h4, and h1 needs to be more specific because it can break more things than it fixes. */#uc-header h1 {
+  font-size: 12px!important;
+}.textwidget iframe {
+  min-height: 0;
+}.widget_metaslider_widget {
+  overflow: hidden;
+}#content .panel-grid .widget.widget_metaslider_widget ul li {
+  margin-bottom: 10px;
+}.icon-grid.flex-images img {
+  /* Change the width percentage to adjust the size of the blue icons on home page */
+  width: 50%!important;
+}.single-post .entry-content ul li {
+  margin-left: 25px;
+  list-style-type: disc;
+}.single-post .entry-content ul li::before {
+  content: '';
+  border: none;
+  padding: 0;
+  margin: 0;
+}#primary #main .yearly-archive .post {
+  width: 33%;
+  float: left;
+  padding: 1%;
+}@media (max-width:767px) {
+  #primary #main .yearly-archive .post {
+    width: 100%;
+    float: none;
+    padding: auto;
+  }
+}#primary #main .yearly-archive .post:nth-of-type(3n) {
+  clear: right;
+}#primary #main .yearly-archive .post:nth-of-type(3n+1) {
+  clear: left;
+}#content .yearly-archive .widget.widget_siteorigin-panels-postloop h2.entry-title {
+  line-height: 0;
+}#content .yearly-archive .widget.widget_siteorigin-panels-postloop h2.entry-title a {
+  font-size: 22px;
+  line-height: 1.4em;
+  font-weight: 700;
+}#content .yearly-archive .widget.widget_siteorigin-panels-postloop h2.entry-title a:hover {
+  text-decoration: underline;
 }/* HOME PAGE */.navbar-default .navbar-nav>.active>[href="https://techpark.uconn.edu"] {
   background: #f5e333;
   border-color: #f5e333;
@@ -128,8 +247,13 @@ nav.navbar-default .navbar-nav > li > a {
   max-width: 550px;
 }.title-paragraph .description {
   margin-top: 13em;
-}.equip-row-cell {}
-.equip-header {
+}.title-paragraph .description a {
+  color: white;
+}.title-paragraph .description a:hover {
+  color: rgb(199, 199, 199);
+}/* .equip-row-cell {
+
+} */.equip-header {
   font-size: 16px;
   color: #363a39;
   padding: 0.1em;
