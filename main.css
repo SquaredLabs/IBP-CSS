@@ -27,6 +27,10 @@ body {
   background-color: #e6efed !important;
 }
 
+/* #page-blank .container {
+  width: unset!important;
+} */
+
 #masthead {
   background: #e6efed;
 }
