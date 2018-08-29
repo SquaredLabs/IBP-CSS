@@ -4,3 +4,87 @@
   background: #e14433;
   border-color: #e14433;
 }
+#pg-3550-0{
+    padding-top:2em;
+   
+    
+}
+.hi-tech-title-display{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    flex-wrap:wrap;
+  }
+  .hi-tech-title-item{
+    flex:1;
+    min-width:12em;
+    margin: 5px;
+  }
+  .hi-tech-information{
+    height:60%;
+  }
+  .hi-tech-button{
+     
+    height:2.5em;
+    text-align:center;
+    width: 100%;
+    box-sizing:border-box;
+    padding:10px;
+  }
+  .hi-tech-contact-link{
+    text-decoration:none !important;
+    font-weight:700;
+    color: #363A39;
+    
+  }
+  .hi-tech-equipment-link{
+    text-align:center;
+    
+  }
+  .hi-tech-equipment-link .arrow{
+    margin-top:0;
+    font-size:2.5em;
+    text-decoration:none;
+  }
+.yellow {
+  color: #f5e333 !important;
+}
+
+.red {
+  color: #e14433 !important;
+}
+
+.blue {
+  color: #3392ef !important;
+}
+
+.purple {
+  color: #9893cd !important;
+}
+
+.green {
+    color: #40cd3a !important;
+}
+
+.orange {
+  color: #f0672b !important;
+}
+
+.hi-tech-equip-flex-item {
+  flex:1;
+   min-width:22em;
+}
+.hi-tech-equipment-display{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+.hi-tech-equipment-name{
+    margin-top:2em;
+    margin-bottom:2em;
+    font-size:2.3em;
+    text-align:left;
+    font-weight:600;
+}
+
+
