@@ -379,46 +379,58 @@ nav.navbar-default .navbar-nav > li > a {
   color: white;
 }.title-paragraph .description a:hover {
   color: rgb(199, 199, 199);
-}/* .equip-row-cell {
-
-} */.equip-header {
+}/* .equip-header {
   font-size: 16px;
   color: #363a39;
   padding: 0.1em;
   margin: 0;
-}.equip-container {
+}
+
+.equip-container {
   display: flex;
   justify-content: right;
   height: 300px;
   position: relative;
-}.equip-icon {
+}
+
+.equip-icon {
   width: 20%;
   height: 30%;
   position: absolute;
   left: -1em;
   top: -1em;
-}.equip-content {
+}
+
+.equip-content {
   width: calc(100% - 2em);
   height: calc(100% - 2em);
   align-self: flex-end;
   position: absolute;
-}.equip-desc {
+}
+
+.equip-desc {
   color: #525f5b;
   margin: 0;
-}.equip-name {
+}
+
+.equip-name {
   color: #363a39;
   margin: 0;
-}.equip-content hr {
+}
+
+.equip-content hr {
   width: 4em;
   color: #525f5b;
   border: 2px solid #525f5b;
   margin-top: 14px;
   margin-bottom: 14px;
-}@media (max-width: 961px) {
+}
+
+@media (max-width: 961px) {
   .equip-container {
     width: 135%;
   }
-}.research-centers-container {
+} */.research-centers-container {
   display: flex;
   position: relative;
   height: 500px;

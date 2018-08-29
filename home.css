@@ -31,11 +31,7 @@
   color: rgb(199, 199, 199);
 }
 
-/* .equip-row-cell {
-
-} */
-
-.equip-header {
+/* .equip-header {
   font-size: 16px;
   color: #363a39;
   padding: 0.1em;
@@ -86,7 +82,7 @@
   .equip-container {
     width: 135%;
   }
-}
+} */
 
 .research-centers-container {
   display: flex;
@@ -122,7 +118,7 @@
   width: auto;
 }
 
-.research-centers-column:last-child{
+.research-centers-column:last-child {
   margin-top: 2em;
 }
 
@@ -143,11 +139,11 @@
   flex-direction: column;
 }
 
-.sl-posts article header{
+.sl-posts article header {
   width: 100%;
 }
 
-.sl-posts article header .entry-title{
+.sl-posts article header .entry-title {
   width: 50%;
   font-size: 20px;
   display: inline-block;
@@ -155,11 +151,11 @@
   margin-left: 0.3em;
 }
 
-.sl-posts article header .entry-title a{
+.sl-posts article header .entry-title a {
   font-size: 16px;
 }
 
-.sl-posts article header img{
+.sl-posts article header img {
   width: 40%;
   height: auto;
   display: inline-block;
@@ -179,21 +175,22 @@ div.sl-videos iframe {
 div.sl-outreach-r1 {
   padding-bottom: 0 !important;
 }
+
 div.sl-outreach-r1 {
   padding-top: 0 !important;
 }
 
-.sl-outreach-r1 .panel-grid-cell{
+.sl-outreach-r1 .panel-grid-cell {
   width: 50% !important;
   align-self: center;
 }
 
-.sl-outreach-r1 .panel-grid-cell div img{
-  width: 100% ;
+.sl-outreach-r1 .panel-grid-cell div img {
+  width: 100%;
   align-self: center;
 }
 
-.sl-outreach-r2 .panel-grid-cell div img{
-  width: 100% ;
+.sl-outreach-r2 .panel-grid-cell div img {
+  width: 100%;
   align-self: center;
 }
