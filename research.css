@@ -1,11 +1,14 @@
 /* RESEARCH PARTNERS PAGE */
 
-.navbar-default .navbar-nav>.active>[href*="partners"] {
+.navbar-default .navbar-nav > .active > [href*="partners"] {
   background: #e14433;
   border-color: #e14433;
 }
 
-#content #page-page .widget.widget_siteorigin-panels-postloop .content-template-date {
+#content
+  #page-page
+  .widget.widget_siteorigin-panels-postloop
+  .content-template-date {
   display: block;
   font-size: 13px;
 }
@@ -20,52 +23,60 @@
 .center-box {
   flex: 1;
   flex-basis: calc(50% - 0.5em);
-  min-height: calc(375em/16);
+  max-width: calc(50% - 0.5em);
+  min-height: calc(375em / 16);
   display: flex;
   flex-direction: column;
   padding: 1em;
   position: relative;
 }
 
+@media (max-width: 768px) {
+  .center-box {
+    margin: 0 0 1em !important;
+    flex-basis: 100%;
+    max-width: unset;
+    height: calc((300em / 16) - 0.25vw);
+  }
+}
+
 @media (max-width: 1079px) {
-.center-box:nth-child(2n + 1) {
-  margin-right: 0.5em;
-  margin-top: -2em;
-
-}
-
-.center-box:nth-child(2n) {
-  margin-left: 0.5em;
-  margin-top: 1em;
-}
-
-.center-box:nth-child(2) {
-  margin-top: 3em;
-}
+  .center-box:nth-child(2n + 1) {
+    margin-right: 0.5em;
+    margin-top: -2em;
+  }
+  .center-box:nth-child(2n) {
+    margin-left: 0.5em;
+    margin-top: 1em;
+  }
+  .center-box:nth-child(2) {
+    margin-top: 3em;
+  }
 }
 
 @media (min-width: 1080px) {
   .center-box:nth-child(3n + 1) {
     margin-right: 0.5em;
     margin-top: -2em;
-    flex-basis: calc(33% - 0.5em)
+    flex-basis: calc(33% - 0.5em);
+    max-width: calc(33% - 0.5em);
   }
   .center-box:nth-child(3n + 2) {
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-top: 1em;
-    flex-basis: calc(33% - 1em)
+    flex-basis: calc(33% - 1em);
+    max-width: calc(33% - 1em);
   }
   .center-box:nth-child(3n) {
     margin-left: 0.5em;
     margin-top: -1em;
-    flex-basis: calc(33% - 0.5em)
+    flex-basis: calc(33% - 0.5em);
+    max-width: calc(33% - 0.5em);
   }
-  
   .center-box:nth-child(2) {
     margin-top: 3em;
   }
-
   .center-box:nth-child(3) {
     margin-top: 1em;
   }
@@ -76,15 +87,15 @@
 }
 
 @media (min-width: 1200px) {
-.center-box {
-  min-height: calc(375em/16);
-}
+  .center-box {
+    min-height: calc(375em / 16);
+  }
 }
 
 @media (min-width: 1440px) {
-.center-box {
-  min-height: calc(300em/16);
-}
+  .center-box {
+    min-height: calc(300em / 16);
+  }
 }
 
 .research-center > * {
@@ -94,7 +105,7 @@
 .center-name {
   color: #525f5b;
   font-size: 1.953em !important;
-  font-family: 'Proxima Nova';
+  font-family: "Proxima Nova";
   font-weight: 700;
   margin-top: 0;
   text-align: left;
@@ -103,52 +114,52 @@
 }
 
 .center-info {
-    opacity: 0;
-    height: 90%;
-    position: absolute;
-    width: 86%;
-    top: 10%;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
+  opacity: 0;
+  height: 90%;
+  position: absolute;
+  width: 86%;
+  top: 10%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
 }
 
 .center-box:hover .center-name {
-    opacity: 0;
-    transition-delay: 0s;
+  opacity: 0;
+  transition-delay: 0s;
 }
 
 .center-box:hover .center-info {
-    opacity: 1;
-    top: 5%;
-    transition-delay: 0.1s;
+  opacity: 1;
+  top: 5%;
+  transition-delay: 0.1s;
 }
 
 .center-data {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
 }
 
 .center-info p {
-    font-size: 0.95em;
-    font-family: 'proxima_nova_light';
-    margin-top: 0;
+  font-size: 0.95em;
+  font-family: "proxima_nova_light";
+  margin-top: 0;
 }
 
 .center-box h2 {
-    font-weight: 700;
-    font-family: 'Proxima Nova';
+  font-weight: 700;
+  font-family: "Proxima Nova";
 }
 
 .center-box .center-data p,
 .center-box .center-data h2 {
-    font-size: 0.8em;
-    margin-bottom: 0;
+  font-size: 0.8em;
+  margin-bottom: 0;
 }
 
 .center-box a {
-    color: inherit;
+  color: inherit;
 }
 
 /* Colors Classes */
@@ -181,18 +192,12 @@
 
 .partner-flex-display {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
 }
 
-.partner-row-display {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.parter-single-display {
-  height: auto;
-  flex-basis: 33%;
+.partner-flex-display img {
+  max-height: 12em;
+  width: auto;
 }
 
 #pl-3296 {
