@@ -4,3 +4,141 @@
   background: #9893cd;
   border-color: #9893cd;
 }
+
+/* WHO WE ARE PAGE */
+
+.navbar-default .navbar-nav > .active > [href*="who"] {
+  background: #9893cd;
+  border-color: #9893cd;
+}
+
+img.left-edge {
+  margin-left: -8vw;
+}
+
+.pamir-feature {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2em;
+}
+
+.pamir-feature .pamir-portrait-wrapper {
+  flex: 1.5;
+  overflow: hidden;
+  margin: 0 4em;
+  align-self: flex-start;
+}
+
+.pamir-feature img {
+  height: auto;
+  width: 100%;
+  max-height: unset;
+  max-width: unset;
+  min-height: unset;
+  min-width: unset;
+}
+
+.pamir-bio {
+  flex: 2;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 2em;
+}
+
+.pamir-bio .person-info h1 {
+  color: #363a39 !important;
+  font-size: 1.563em !important;
+  height: unset;
+  font-family: ProximaNova-Bold;
+  font-weight: 700;
+  margin: 0;
+}
+
+.pamir-bio .person-info h2 {
+  margin: 0.25em 0;
+}
+
+.pamir-bio p {
+  margin-top: 1.563em;
+}
+
+.pamir-bio p + p {
+  display: none;
+}
+
+.portrait-wrapper {
+  width: 12em;
+  height: 16em;
+  overflow: hidden;
+  position: relative;
+}
+
+.portrait-wrapper img {
+  height: 100%;
+  width: auto;
+  max-height: unset;
+  max-width: unset;
+  min-height: unset;
+  min-width: unset;
+  position: absolute;
+}
+
+.person-info {
+  color: #363a39 !important;
+  text-align: center;
+}
+
+.person-grid {
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+}
+
+.person-grid > div {
+  display: inline-block;
+  margin: 0.5em;
+}
+
+.person-grid .person-info {
+  color: white !important;
+  text-align: center;
+  position: absolute;
+  background-color: #9893cd;
+  width: 100%;
+  height: 4.5em;
+  bottom: 0;
+  padding: 0.8em;
+  transition: height 0.3s ease;
+}
+
+.person-grid .person-info h1 {
+  color: inherit !important;
+  font-size: 1.25em !important;
+  font-weight: 700;
+  margin: 0 0 4em;
+  transition: margin 0.15s ease;
+}
+
+.person-info h2,
+.person-info p {
+  color: inherit !important;
+  font-size: 1em;
+  font-family: proxima_nova_light;
+  line-height: 1 !important;
+  font-weight: 400;
+  margin: 1.25em 0;
+}
+
+.person-info a {
+  color: inherit !important;
+  font-size: 0.8em;
+}
+
+.portrait-wrapper:hover .person-info {
+  height: 16em;
+}
+
+.portrait-wrapper:hover .person-info h1 {
+  margin-bottom: 0.5em;
+}
