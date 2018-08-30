@@ -2,13 +2,25 @@
 #masthead.site-header #nav-wrapper.navbar-fixed-top {
   background: #e6efed;
 }#masthead.site-header #site-title .col-sm-8 #uc-site-header #uc-site-title a,
+nav.navbar-default .navbar-nav > li:hover > a {
+  color: white;
+}#masthead.site-header #site-title .col-sm-8 #uc-site-header #uc-site-title a,
 nav.navbar-default .navbar-nav > li > a {
-  color: #525f5b;
+  color: black;
 }.navbar-default .navbar-nav > .active > a {
   border-bottom-width: 2px;
   border-bottom-style: solid;
 }#masthead.site-header #nav-wrapper.navbar-fixed-top {
   box-shadow: none;
+}.navbar-nav > li {
+  width: 16.66%;
+}#dropdown {
+  width: 100%;
+  margin: 0;
+  background-image: url("https://techpark.uconn.edu/wp-content/uploads/sites/2213/2018/08/mural.svg");
+  background-size: cover;
+}#menu-top-nav {
+  width: 100%;
 }/* #masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown {
   margin: 0 0 0 auto;
 }
@@ -424,7 +436,7 @@ nav.navbar-default .navbar-nav > li > a {
 }div.sl-landing {
   padding-top: 0 !important;
   background-image: url("https://techpark.uconn.edu/wp-content/uploads/sites/2213/2018/08/mural.svg");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
 }.title-paragraph {

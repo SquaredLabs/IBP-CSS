@@ -15,7 +15,7 @@
 div.sl-landing {
   padding-top: 0 !important;
   background-image: url("https://techpark.uconn.edu/wp-content/uploads/sites/2213/2018/08/mural.svg");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: top center;
 }
