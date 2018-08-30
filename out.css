@@ -525,10 +525,10 @@ nav.navbar-default .navbar-nav > li > a {
   height: 4em;
   overflow: hidden;
   font-size: 0.8em;
-  display: inline-block;
   margin-left: calc(40% + 0.8em);
   margin-top: -4em;
   margin-bottom: 1em;
+  display: none;
 }div.sl-videos iframe {
   min-height: 30px;
 }div.sl-outreach-r1 {
