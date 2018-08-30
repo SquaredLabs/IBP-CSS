@@ -124,12 +124,6 @@
   margin: 0;
 }
 
-@media (max-width: 961px) {
-  .equip-container {
-    width: 135%;
-  }
-}
-
 .yellow {
   color: #f5e333 !important;
 }
@@ -151,4 +145,5 @@
 }
 
 .orange {
-  color: #f0672b !important;}
+  color: #f0672b !important;
+}

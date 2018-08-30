@@ -9,7 +9,23 @@ nav.navbar-default .navbar-nav > li > a {
   border-bottom-style: solid;
 }#masthead.site-header #nav-wrapper.navbar-fixed-top {
   box-shadow: none;
-}/* RESEARCH PARTNERS PAGE */.navbar-default .navbar-nav > .active > [href*="partners"] {
+}/* #masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown {
+  margin: 0 0 0 auto;
+}
+
+#masthead.site-header #nav-wrapper #dropdown #menu-top-nav:before {
+  content: "IPB at the UConn TechPark";
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+#masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown #menu-top-nav {
+  float: right;
+}
+
+#masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown #menu-top-nav:before {
+  opacity: 1;
+} *//* RESEARCH PARTNERS PAGE */.navbar-default .navbar-nav > .active > [href*="partners"] {
   background: #e14433;
   border-color: #e14433;
 }#content
@@ -190,22 +206,29 @@ nav.navbar-default .navbar-nav > li > a {
   padding-top: 2em;
 }#pg-3525-0 p {
   line-height: 2em !important;
-}/* Hi-TECH EQUIPMENT PAGE */.navbar-default .navbar-nav > .active > [href*="tech"] {
+}/* Hi-TECH EQUIPMENT PAGE */.navbar-default .navbar-nav>.active>[href*="tech"] {
   background: #e14433;
   border-color: #e14433;
 }#pg-3550-0 {
   padding-top: 2em;
 }.hi-tech-title-display {
   display: flex;
-  flex-direction: row;
+  flex-flow: row wrap;
   width: 100%;
-  flex-wrap: wrap;
+  justify-content: space-around;
 }.hi-tech-title-item {
-  flex: 1;
   min-width: 12em;
-  margin: 5px;
+  margin: 0.5em;
+  flex: 0.2;
 }.hi-tech-information {
-  height: 60%;
+  height: 5.25em;
+}.hi-tech-information h1 {
+  font-size: 1.25em !important;
+  margin: 0 0 0.15em;
+  color: #363A39;
+  font-weight: 700;
+}.hi-tech-information p {
+  font-size: 0.8em !important;
 }.hi-tech-button {
   height: 2.5em;
   text-align: center;
@@ -216,12 +239,55 @@ nav.navbar-default .navbar-nav > li > a {
   text-decoration: none !important;
   font-weight: 700;
   color: #363A39;
-}.hi-tech-equipment-link {
-  text-align: center;
+}.hi-tech-equipment-link p {
+  margin-top: 0.75em;
+  margin-bottom: 1em;
+  font-size: 0.8em;
 }.hi-tech-equipment-link .arrow {
-  margin-top: 0;
-  font-size: 2.5em;
+  margin: 0;
+  font-size: 2em;
   text-decoration: none;
+}.hi-tech-equip-flex-item {
+  flex: 1;
+  min-width: 17em;
+  max-width: 25em;
+}.hi-tech-equipment-display {
+  display: flex;
+  flex-flow: row wrap;
+}.hi-tech-equipment-name {
+  margin-top: 2em;
+  font-size: 2.3em;
+  font-weight: 600;
+}.equip-container {
+  display: flex;
+  margin: 1em 0.75em 3em;
+}.equip-icon {
+  width: 6.5em;
+  height: 6.5em;
+}.equip-content {
+  width: calc(100% - 2em);
+  margin-left: -3.25em;
+  padding: 2.5em 0 0 0;
+  max-width: 25em;
+}.equip-header {
+  text-transform: uppercase;
+  font-size: 1em !important;
+  line-height: 1.25;
+  padding: 0.15em;
+  font-weight: 700;
+  margin-bottom: 0;
+}.equip-name h3 {
+  color: #363a39;
+  margin: 0.3em 0 0;
+  font-size: 1.563em;
+}.equip-content hr {
+  width: 4em;
+  border: 1px solid #525f5b;
+  margin-top: 1em;
+  margin-bottom: 0.9em;
+}.equip-desc {
+  color: #525f5b;
+  margin: 0;
 }.yellow {
   color: #f5e333 !important;
 }.red {
@@ -234,19 +300,6 @@ nav.navbar-default .navbar-nav > li > a {
   color: #40cd3a !important;
 }.orange {
   color: #f0672b !important;
-}.hi-tech-equip-flex-item {
-  flex: 1;
-  min-width: 22em;
-}.hi-tech-equipment-display {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}.hi-tech-equipment-name {
-  margin-top: 2em;
-  margin-bottom: 2em;
-  font-size: 2.3em;
-  text-align: left;
-  font-weight: 600;
 }/* SMALL BUSINESSES PAGE */.navbar-default .navbar-nav>.active>[href*="small"] {
   background: #3392ef;
   border-color: #3392ef;
@@ -368,99 +421,85 @@ nav.navbar-default .navbar-nav > li > a {
     padding-left: 25px;
     margin-left: -25px;
   }
+}div.sl-landing {
+  padding-top: 0 !important;
+  background-image: url("https://techpark.uconn.edu/wp-content/uploads/sites/2213/2018/08/mural.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
 }.title-paragraph {
-  position: absolute;
-  top: 5%;
-  margin-left: 7em;
-  max-width: 550px;
+  max-width: 35em;
+}.title-paragraph .sl-header {
+  margin-top: 25vh;
 }.title-paragraph .description {
-  margin-top: 13em;
+  margin-top: 16vh;
+  margin-bottom: 16vh;
 }.title-paragraph .description a {
   color: white;
 }.title-paragraph .description a:hover {
   color: rgb(199, 199, 199);
-}/* .equip-header {
-  font-size: 16px;
-  color: #363a39;
-  padding: 0.1em;
-  margin: 0;
-}
-
-.equip-container {
-  display: flex;
-  justify-content: right;
-  height: 300px;
-  position: relative;
-}
-
-.equip-icon {
-  width: 20%;
-  height: 30%;
-  position: absolute;
-  left: -1em;
-  top: -1em;
-}
-
-.equip-content {
-  width: calc(100% - 2em);
-  height: calc(100% - 2em);
-  align-self: flex-end;
-  position: absolute;
-}
-
-.equip-desc {
-  color: #525f5b;
-  margin: 0;
-}
-
-.equip-name {
-  color: #363a39;
-  margin: 0;
-}
-
-.equip-content hr {
-  width: 4em;
-  color: #525f5b;
-  border: 2px solid #525f5b;
-  margin-top: 14px;
-  margin-bottom: 14px;
-}
-
-@media (max-width: 961px) {
-  .equip-container {
-    width: 135%;
-  }
-} */.research-centers-container {
+}.research-centers-container {
   display: flex;
   position: relative;
-  height: 500px;
-}.research-centers-column {
-  display: flex;
-  height: calc(100% - 2em);
-  flex-direction: column;
-  width: 50%;
-}.research-centers-card {
-  padding: 1em;
-  padding: 1em;
-  height: 30%;
-  background-color: white;
-  margin: 0.6em;
-  justify-content: center;
-  display: flex;
-  transition: all 0.3s ease;
-}.research-centers-card:hover {
-  background-color: rgb(226, 226, 226);
-  padding: 0.3em;
-}.research-centers-card img {
-  height: 100%;
-  width: auto;
-}.research-centers-column:last-child {
-  margin-top: 2em;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}.partner-logo {
+  flex: none;
+  width: 33%;
+  padding: 2em;
+}.pad-me {
+  padding: 5em;
 }.sl-news-img img {
   width: 100%;
+}.sl-featured-post header {
+  margin-left: -1em;
+  width: calc(100vw - 1em);
+  height: 60vh;
+  padding-bottom: 11em;
+  overflow: hidden;
+  box-sizing: content-box;
+}.sl-featured-post img {
+  width: 100%;
+  height: auto;
+  margin-top: -30vw;
+}.sl-featured-post .entry-content {
+  margin-left: calc(8vw - 1rem);
+  font-size: 1.25em;
+  width: 80vw;
+}.sl-featured-post h2 {
+  margin-left: 8vw;
+  max-width: 80vw;
+  font-size: calc(1em + 1vw) !important;
+  line-height: 1 !important;
+}@media (max-width: 768px) {
+  .sl-featured-post .entry-content,
+  .sl-featured-post h2 {
+    max-width: unset;
+    width: unset;
+  }
+}.sl-featured-post h2:before {
+  content: "LATEST STORY";
+  font-size: 2rem;
+  height: 3rem;
+  display: block;
+  margin-bottom: 0.25em;
+  margin-left: 0.15em;
+}.sl-featured-post h2 a {
+  font-size: inherit !important;
+}.sl-featured-post h2 a,
+.sl-featured-post p {
+  color: #525f5b;
 }.sl-posts {
   display: flex;
   flex-wrap: wrap;
+}.sl-posts>*:first-child {
+  display: none;
+}.sl-posts>*:nth-child(2) {
+  margin-top: 9em;
+}.sl-posts>*:nth-child(5),
+.sl-posts>*:nth-child(7) {
+  margin-top: -10em;
 }.sl-posts article {
   display: flex;
   width: calc(50% - 0.8em);
@@ -483,9 +522,13 @@ nav.navbar-default .navbar-nav > li > a {
   display: inline-block;
   vertical-align: top;
 }.sl-posts article .entry-content {
-  height: 5em;
-  font-size: 12px;
+  height: 4em;
+  overflow: hidden;
+  font-size: 0.8em;
   display: inline-block;
+  margin-left: calc(40% + 0.8em);
+  margin-top: -4em;
+  margin-bottom: 1em;
 }div.sl-videos iframe {
   min-height: 30px;
 }div.sl-outreach-r1 {
@@ -521,13 +564,24 @@ body {
   background: #e6efed;
 }.uc-site-title {
   color: #000;
+}.site-content#content .container {
+  width: unset !important;
+}.col-sm-12 {
+  padding: 0;
+}.sl-section {
+  min-height: 80vh;
+  font-size: 16px;
+  padding: 4.768em 8vw !important;
+}.sl-header,
+.sl-header-sub {
+  text-transform: uppercase;
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  text-align: left;
 }.sl-header {
   color: #525f5b !important;
-  font-family: proxima_nova_light;
   /*font-family:ProximaNova-SemiBold;*/
   font-size: 4.768em !important;
-  font-weight: 600;
-  text-align: left;
   margin-bottom: 0;
 }.sl-header-caption {
   color: #525f5b;
@@ -537,12 +591,12 @@ body {
   margin-bottom: 1em;
 }.sl-header-sub {
   color: #363a39;
-  font-family: proxima_nova_light;
   font-size: 1em;
-  font-weight: 400;
-  text-align: left;
   margin: 0;
   line-height: 1.953 !important;
+}.sl-header-sub a {
+  text-decoration: none !important;
+  color: inherit !important;
 }.sl-body {
   color: #363a39;
   font-family: proxima_nova_light;
@@ -550,8 +604,6 @@ body {
   font-weight: 400;
   text-align: left;
   margin: 1.25em 0;
-}.sl-header-sub a {
-  text-decoration: none;
-}div.panel-row-style {
-  padding: 5em 0 !important;
-}
+}/* div.panel-row-style {
+  padding: 5em 0 !important
+} */

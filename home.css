@@ -12,15 +12,25 @@
   }
 }
 
+div.sl-landing {
+  padding-top: 0 !important;
+  background-image: url("https://techpark.uconn.edu/wp-content/uploads/sites/2213/2018/08/mural.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
 .title-paragraph {
-  position: absolute;
-  top: 5%;
-  margin-left: 7em;
-  max-width: 550px;
+  max-width: 35em;
+}
+
+.title-paragraph .sl-header {
+  margin-top: 25vh;
 }
 
 .title-paragraph .description {
-  margin-top: 13em;
+  margin-top: 16vh;
+  margin-bottom: 16vh;
 }
 
 .title-paragraph .description a {
@@ -31,104 +41,98 @@
   color: rgb(199, 199, 199);
 }
 
-/* .equip-header {
-  font-size: 16px;
-  color: #363a39;
-  padding: 0.1em;
-  margin: 0;
-}
-
-.equip-container {
-  display: flex;
-  justify-content: right;
-  height: 300px;
-  position: relative;
-}
-
-.equip-icon {
-  width: 20%;
-  height: 30%;
-  position: absolute;
-  left: -1em;
-  top: -1em;
-}
-
-.equip-content {
-  width: calc(100% - 2em);
-  height: calc(100% - 2em);
-  align-self: flex-end;
-  position: absolute;
-}
-
-.equip-desc {
-  color: #525f5b;
-  margin: 0;
-}
-
-.equip-name {
-  color: #363a39;
-  margin: 0;
-}
-
-.equip-content hr {
-  width: 4em;
-  color: #525f5b;
-  border: 2px solid #525f5b;
-  margin-top: 14px;
-  margin-bottom: 14px;
-}
-
-@media (max-width: 961px) {
-  .equip-container {
-    width: 135%;
-  }
-} */
-
 .research-centers-container {
   display: flex;
   position: relative;
-  height: 500px;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
-.research-centers-column {
-  display: flex;
-  height: calc(100% - 2em);
-  flex-direction: column;
-  width: 50%;
+.partner-logo {
+  flex: none;
+  width: 33%;
+  padding: 2em;
 }
 
-.research-centers-card {
-  padding: 1em;
-  padding: 1em;
-  height: 30%;
-  background-color: white;
-  margin: 0.6em;
-  justify-content: center;
-  display: flex;
-  transition: all 0.3s ease;
-}
-
-.research-centers-card:hover {
-  background-color: rgb(226, 226, 226);
-  padding: 0.3em;
-}
-
-.research-centers-card img {
-  height: 100%;
-  width: auto;
-}
-
-.research-centers-column:last-child {
-  margin-top: 2em;
+.pad-me {
+  padding: 5em;
 }
 
 .sl-news-img img {
   width: 100%;
 }
 
+.sl-featured-post header {
+  margin-left: -1em;
+  width: calc(100vw - 1em);
+  height: 60vh;
+  padding-bottom: 11em;
+  overflow: hidden;
+  box-sizing: content-box;
+}
+
+.sl-featured-post img {
+  width: 100%;
+  height: auto;
+  margin-top: -30vw;
+}
+
+.sl-featured-post .entry-content {
+  margin-left: calc(8vw - 1rem);
+  font-size: 1.25em;
+  width: 80vw;
+}
+
+.sl-featured-post h2 {
+  margin-left: 8vw;
+  max-width: 80vw;
+  font-size: calc(1.563em + 1vw) !important;
+  line-height: 1 !important;
+}
+
+@media (max-width: 768px) {
+  .sl-featured-post .entry-content,
+  .sl-featured-post h2 {
+    max-width: unset;
+    width: unset;
+  }
+}
+
+.sl-featured-post h2:before {
+  content: "LATEST STORY";
+  font-size: 2rem;
+  height: 3rem;
+  display: block;
+  margin-bottom: 0.25em;
+  margin-left: 0.15em;
+}
+
+.sl-featured-post h2 a {
+  font-size: inherit !important;
+}
+
+.sl-featured-post h2 a,
+.sl-featured-post p {
+  color: #525f5b;
+}
+
 .sl-posts {
   display: flex;
   flex-wrap: wrap;
+}
+
+.sl-posts>*:first-child {
+  display: none;
+}
+
+.sl-posts>*:nth-child(2) {
+  margin-top: 9em;
+}
+
+.sl-posts>*:nth-child(5),
+.sl-posts>*:nth-child(7) {
+  margin-top: -10em;
 }
 
 .sl-posts article {
@@ -163,9 +167,13 @@
 }
 
 .sl-posts article .entry-content {
-  height: 5em;
-  font-size: 12px;
+  height: 4em;
+  overflow: hidden;
+  font-size: 0.8em;
   display: inline-block;
+  margin-left: calc(40% + 0.8em);
+  margin-top: -4em;
+  margin-bottom: 1em;
 }
 
 div.sl-videos iframe {

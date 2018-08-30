@@ -18,3 +18,21 @@ nav.navbar-default .navbar-nav > li > a {
 #masthead.site-header #nav-wrapper.navbar-fixed-top {
   box-shadow: none;
 }
+
+/* #masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown {
+  margin: 0 0 0 auto;
+}
+
+#masthead.site-header #nav-wrapper #dropdown #menu-top-nav:before {
+  content: "IPB at the UConn TechPark";
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+#masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown #menu-top-nav {
+  float: right;
+}
+
+#masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown #menu-top-nav:before {
+  opacity: 1;
+} */

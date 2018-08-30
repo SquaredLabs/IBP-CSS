@@ -39,13 +39,32 @@ body {
   color: #000;
 }
 
+.site-content#content .container {
+  width: unset !important;
+}
+
+.col-sm-12 {
+  padding: 0;
+}
+
+.sl-section {
+  min-height: 80vh;
+  font-size: 16px;
+  padding: 4.768em 8vw !important;
+}
+
+.sl-header,
+.sl-header-sub {
+  text-transform: uppercase;
+  font-family: "Proxima Nova";
+  font-weight: 700;
+  text-align: left;
+}
+
 .sl-header {
   color: #525f5b !important;
-  font-family: proxima_nova_light;
   /*font-family:ProximaNova-SemiBold;*/
   font-size: 4.768em !important;
-  font-weight: 600;
-  text-align: left;
   margin-bottom: 0;
 }
 
@@ -59,12 +78,14 @@ body {
 
 .sl-header-sub {
   color: #363a39;
-  font-family: proxima_nova_light;
   font-size: 1em;
-  font-weight: 400;
-  text-align: left;
   margin: 0;
   line-height: 1.953 !important;
+}
+
+.sl-header-sub a {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 .sl-body {
@@ -76,10 +97,6 @@ body {
   margin: 1.25em 0;
 }
 
-.sl-header-sub a {
-  text-decoration: none;
-}
-
-div.panel-row-style {
+/* div.panel-row-style {
   padding: 5em 0 !important
-}
+} */
