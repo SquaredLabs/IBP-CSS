@@ -424,7 +424,7 @@ nav.navbar-default .navbar-nav > li > a {
 }div.sl-landing {
   padding-top: 0 !important;
   background-image: url("https://techpark.uconn.edu/wp-content/uploads/sites/2213/2018/08/mural.svg");
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
 }.title-paragraph {
@@ -470,7 +470,7 @@ nav.navbar-default .navbar-nav > li > a {
 }.sl-featured-post h2 {
   margin-left: 8vw;
   max-width: 80vw;
-  font-size: calc(1em + 1vw) !important;
+  font-size: calc(1.953em + 3vw) !important;
   line-height: 1 !important;
 }@media (max-width: 768px) {
   .sl-featured-post .entry-content,
