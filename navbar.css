@@ -3,16 +3,13 @@
 #masthead.site-header,
 #masthead.site-header #nav-wrapper.navbar-fixed-top {
   background: #e6efed;
+  border-bottom: 2px solid #525F5B!important;
 }
 
 #masthead.site-header #site-title .col-sm-8 #uc-site-header #uc-site-title a,
-nav.navbar-default .navbar-nav > li:hover > a {
-  color: white;
-}
-
-#masthead.site-header #site-title .col-sm-8 #uc-site-header #uc-site-title a,
-nav.navbar-default .navbar-nav > li > a {
-  color: black;
+nav.navbar-default .navbar-nav > li > a,
+#masthead #nav-wrapper .navbar-header a.navbar-brand {
+  color: #525f5b;
 }
 
 .navbar-default .navbar-nav > .active > a {
@@ -24,37 +21,17 @@ nav.navbar-default .navbar-nav > li > a {
   box-shadow: none;
 }
 
-.navbar-nav > li {
-  width: 16.66%;
-  
-}
-
-#dropdown {
-  width: 100%;
-  margin: 0;
-  background-image: url("https://techpark.uconn.edu/wp-content/uploads/sites/2213/2018/08/mural.svg");
-  background-size: cover;
-  
-}
-
-#menu-top-nav {
-  width: 100%;
-}
-
 /* #masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown {
   margin: 0 0 0 auto;
 }
-
 #masthead.site-header #nav-wrapper #dropdown #menu-top-nav:before {
   content: "IPB at the UConn TechPark";
   opacity: 0;
   transition: opacity 0.15s ease;
 }
-
 #masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown #menu-top-nav {
   float: right;
 }
-
 #masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown #menu-top-nav:before {
   opacity: 1;
 } */
