@@ -24,7 +24,7 @@
   flex: 1;
   flex-basis: calc(50% - 0.5em);
   max-width: calc(50% - 0.5em);
-  min-height: calc(375em / 16);
+  min-height: calc(435em / 16);
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -88,7 +88,7 @@
 
 @media (min-width: 1200px) {
   .center-box {
-    min-height: calc(375em / 16);
+    min-height: calc(395em / 16);
   }
 }
 
