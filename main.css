@@ -1,4 +1,5 @@
 @import "navbar.css";
+@import "footer.css";
 @import "research.css";
 @import "directions.css";
 @import "hi-tech.css";
@@ -21,6 +22,10 @@ Light Gray: #E6EFED [Page Backgrounds]
 Lightest Gray: #F2F9F7 */
 
 /* Reused CSS Goes Here */
+
+.post, #main, body, article {
+  background-color: unset!important;
+}
 
 html,
 body {
@@ -51,27 +56,56 @@ body {
   min-height: 80vh;
   font-size: 16px;
   padding: 4.768em 8vw !important;
+  align-items: center!important;
+}
+
+.sl-section.full-width {
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+
+.sl-section.full-width .sl-header,
+.sl-section.full-width .sl-header-sub {
+  padding-left: calc(8vw + 16px);
 }
 
 .sl-header,
 .sl-header-sub {
-  text-transform: uppercase;
   font-family: "Proxima Nova";
-  font-weight: 700;
   text-align: left;
 }
 
+.sl-header-sub {
+  color: #363A39 !important;
+  text-transform: uppercase;
+}
+
+.sl-header-sub a {
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+.sl-header-sub a:hover {
+  transform: translateX(0.25em);
+}
+
 .sl-header {
-  color: #525f5b !important;
-  /*font-family:ProximaNova-SemiBold;*/
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #525F5B !important;
   font-size: 4.768em !important;
   margin-bottom: 0;
 }
 
+@media (max-width: 550px) {
+  .sl-header {
+    font-size: 3.052em!important;
+  }
+}
+
 .sl-header-caption {
-  color: #525f5b;
-  font-size: 1.953em;
-  font-weight: 600;
+  font-size: 1.25em;
+  line-height: 1.953!important;
   text-align: left;
   margin-bottom: 1em;
 }
