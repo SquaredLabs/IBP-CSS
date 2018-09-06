@@ -55,6 +55,7 @@
   margin-top: 0.75em;
   margin-bottom: 1em;
   font-size: 0.8em;
+  text-align: center;
 }
 
 .hi-tech-equipment-link .arrow {
@@ -81,19 +82,22 @@
 }
 
 .equip-container {
-  display: flex;
+  background-color: #e6efed;
   margin: 1em 0.75em 3em;
 }
 
-.equip-icon {
-  width: 6.5em;
-  height: 6.5em;
+.equip-icon,
+.equip-container img {
+  mix-blend-mode: multiply;
+  width: 45%;
+  height: 45%;
+  display: block;
+  margin: auto;
 }
 
 .equip-content {
-  width: calc(100% - 2em);
-  margin-left: -3.25em;
-  padding: 2.5em 0 0 0;
+  margin-top: -1.5em;
+  position: relative;
   max-width: 25em;
 }
 
