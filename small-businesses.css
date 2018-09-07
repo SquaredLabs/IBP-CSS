@@ -4,3 +4,57 @@
   background: #3392ef;
   border-color: #3392ef;
 }
+
+.sl-section.sl-testimonials-section {
+  box-sizing: unset !important;
+  padding: 0 !important;
+  min-height: unset !important;
+  height: 50vw !important;
+  max-height: 512px;
+  display: block !important;
+}
+
+.sl-testimonials>* {
+  width: 100%;
+}
+
+.sl-testimonials {
+  position: relative;
+}
+
+.sl-testimonials>div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: fade-in-out;
+  animation-duration: 27s;
+  animation-iteration-count: infinite;
+}
+
+.sl-testimonials>div:nth-of-type(2) {
+  opacity: 0;
+  animation-delay: 9s;
+}
+
+.sl-testimonials>div:nth-of-type(3) {
+  opacity: 0;
+  animation-delay: 18s;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  3% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  33.33333% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
