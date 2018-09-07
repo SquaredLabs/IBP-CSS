@@ -329,6 +329,50 @@ nav.navbar-default .navbar-nav > li > a,
 }/* SMALL BUSINESSES PAGE */.navbar-default .navbar-nav>.active>[href*="small"] {
   background: #3392ef;
   border-color: #3392ef;
+}.sl-section.sl-testimonials-section {
+  box-sizing: unset !important;
+  padding: 0 !important;
+  min-height: unset !important;
+  height: 50vw !important;
+  max-height: 512px;
+  display: block !important;
+}.sl-testimonials>* {
+  width: 100%;
+}.sl-testimonials {
+  position: relative;
+}.sl-testimonials>div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  animation-name: fade-in-out;
+  animation-duration: 27s;
+  animation-iteration-count: infinite;
+}.sl-testimonials>div:nth-of-type(2) {
+  opacity: 0;
+  animation-delay: 9s;
+}.sl-testimonials>div:nth-of-type(3) {
+  opacity: 0;
+  animation-delay: 18s;
+}@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+
+  3% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  33.33333% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }/* WHO WE ARE PAGE */.navbar-default .navbar-nav > .active > [href*="who"] {
   background: #9893cd;
   border-color: #9893cd;
@@ -793,7 +837,7 @@ Lightest Gray: #F2F9F7 *//* Reused CSS Goes Here */.post,
 #main,
 body,
 article {
-  background-color: unset!important;
+  background-color: unset !important;
 }html,
 body {
   background-color: #e6efed !important;
@@ -811,10 +855,10 @@ body {
   min-height: 80vh;
   font-size: 16px;
   padding: 4.768em 8vw !important;
-  align-items: center!important;
+  align-items: center !important;
 }.sl-section.full-width {
-  padding-left: 0!important;
-  padding-right: 0!important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }.sl-section.full-width .sl-header,
 .sl-section.full-width .sl-header-sub {
   padding-left: calc(8vw + 16px);
@@ -831,19 +875,20 @@ body {
 }.sl-header-sub a:hover {
   transform: translateX(0.25em);
 }.sl-header {
+  word-break: break-word;
   text-transform: uppercase;
   font-weight: 700;
   color: #525F5B !important;
   font-size: 4.768em !important;
   margin-bottom: 0.25em;
-  line-height: 1!important;
+  line-height: 1 !important;
 }@media (max-width: 550px) {
   .sl-header {
-    font-size: 3.052em!important;
+    font-size: 3.052em !important;
   }
 }.sl-header-caption {
   font-size: 1.25em;
-  line-height: 1.953!important;
+  line-height: 1.953 !important;
   text-align: left;
   margin-bottom: 1em;
 }.sl-header-sub {
