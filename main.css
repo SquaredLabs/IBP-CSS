@@ -23,8 +23,11 @@ Lightest Gray: #F2F9F7 */
 
 /* Reused CSS Goes Here */
 
-.post, #main, body, article {
-  background-color: unset!important;
+.post,
+#main,
+body,
+article {
+  background-color: unset !important;
 }
 
 html,
@@ -56,12 +59,12 @@ body {
   min-height: 80vh;
   font-size: 16px;
   padding: 4.768em 8vw !important;
-  align-items: center!important;
+  align-items: center !important;
 }
 
 .sl-section.full-width {
-  padding-left: 0!important;
-  padding-right: 0!important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .sl-section.full-width .sl-header,
@@ -90,23 +93,24 @@ body {
 }
 
 .sl-header {
+  word-break: break-word;
   text-transform: uppercase;
   font-weight: 700;
   color: #525F5B !important;
   font-size: 4.768em !important;
   margin-bottom: 0.25em;
-  line-height: 1!important;
+  line-height: 1 !important;
 }
 
 @media (max-width: 550px) {
   .sl-header {
-    font-size: 3.052em!important;
+    font-size: 3.052em !important;
   }
 }
 
 .sl-header-caption {
   font-size: 1.25em;
-  line-height: 1.953!important;
+  line-height: 1.953 !important;
   text-align: left;
   margin-bottom: 1em;
 }
