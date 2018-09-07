@@ -86,11 +86,11 @@
   margin: 1em 0.75em 3em;
 }
 
-.equip-icon,
 .equip-container img {
   mix-blend-mode: multiply;
   width: 45%;
   height: 45%;
+  object-fit: contain;
   display: block;
   margin: auto;
 }
