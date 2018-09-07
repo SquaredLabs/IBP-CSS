@@ -94,7 +94,8 @@ body {
   font-weight: 700;
   color: #525F5B !important;
   font-size: 4.768em !important;
-  margin-bottom: 0;
+  margin-bottom: 0.25em;
+  line-height: 1!important;
 }
 
 @media (max-width: 550px) {
