@@ -284,11 +284,11 @@ nav.navbar-default .navbar-nav > li > a,
 }.equip-container {
   background-color: #e6efed;
   margin: 1em 0.75em 3em;
-}.equip-icon,
-.equip-container img {
+}.equip-container img {
   mix-blend-mode: multiply;
   width: 45%;
   height: 45%;
+  object-fit: contain;
   display: block;
   margin: auto;
 }.equip-content {
@@ -835,7 +835,8 @@ body {
   font-weight: 700;
   color: #525F5B !important;
   font-size: 4.768em !important;
-  margin-bottom: 0;
+  margin-bottom: 0.25em;
+  line-height: 1!important;
 }@media (max-width: 550px) {
   .sl-header {
     font-size: 3.052em!important;
