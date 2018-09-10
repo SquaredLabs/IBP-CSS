@@ -851,6 +851,8 @@ body {
   width: unset !important;
 }.col-sm-12 {
   padding: 0;
+}.home #content div.panel-grid div.widget {
+  overflow: unset !important;
 }.sl-section {
   min-height: 80vh;
   font-size: 16px;
@@ -859,6 +861,7 @@ body {
 }.sl-section.full-width {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  overflow: visible !important;
 }.sl-section.full-width .sl-header,
 .sl-section.full-width .sl-header-sub {
   padding-left: calc(8vw + 16px);
@@ -875,7 +878,7 @@ body {
 }.sl-header-sub a:hover {
   transform: translateX(0.25em);
 }.sl-header {
-  word-break: break-word;
+  /* word-break: break-word; */
   text-transform: uppercase;
   font-weight: 700;
   color: #525F5B !important;
