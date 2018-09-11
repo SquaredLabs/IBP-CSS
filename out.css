@@ -25,28 +25,30 @@ nav.navbar-default .navbar-nav > li > a,
 #masthead.site-header #nav-wrapper.navbar-fixed-top #dropdown #menu-top-nav:before {
   opacity: 1;
 } */#footers {
-  background: none!important;
-  border-top: 2px solid #525F5B!important;
-  padding: 3em 3em 0!important;
+  background: none !important;
+  border-top: 2px solid #525F5B !important;
+  padding: 3em 3em 0 !important;
   overflow: hidden;
 }#footers .row,
 #mega-footer,
 #mega-footer .container {
-  width: unset!important;
-  margin: 0!important;
-  padding: 0!important;
+  width: unset !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }.sl-footer .textwidget {
-  margin-top: 0!important;
+  margin-top: 0 !important;
 }.sl-footer ul {
-  padding: 0!important;
-  margin: 0!important;
+  padding: 0 !important;
+  margin: 0 !important;
 }.sl-footer li {
-  list-style: none!important;
+  list-style: none !important;
   padding: 0 0 0.25em;
-  margin: 0!important;
+  margin: 0 !important;
 }.sl-footer a,
 .sl-footer p {
-  color: #363A39!important;
+  color: #363A39 !important;
+}.sl-footer img {
+  max-width: 12em !Important;
 }/* RESEARCH PARTNERS PAGE */.navbar-default .navbar-nav > .active > [href*="partners"] {
   background: #e14433;
   border-color: #e14433;
@@ -353,6 +355,10 @@ nav.navbar-default .navbar-nav > li > a,
 }.sl-testimonials>div:nth-of-type(3) {
   opacity: 0;
   animation-delay: 18s;
+}.sl-testimonial {
+  text-align: center;
+}.sl-testimonial>img {
+  margin: auto;
 }@keyframes fade-in-out {
   0% {
     opacity: 0;
