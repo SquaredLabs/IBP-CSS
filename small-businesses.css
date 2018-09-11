@@ -41,6 +41,14 @@
   animation-delay: 18s;
 }
 
+.sl-testimonial {
+  text-align: center;
+}
+
+.sl-testimonial>img {
+  margin: auto;
+}
+
 @keyframes fade-in-out {
   0% {
     opacity: 0;
