@@ -5,8 +5,8 @@
   border-color: #e14433;
 }
 
-#pg-3550-0 {
-  padding-top: 2em;
+.sl-section.equip-centers>div>div {
+  margin: 0 !important;
 }
 
 .hi-tech-title-display {
@@ -83,7 +83,7 @@
 
 .equip-container {
   background-color: #e6efed;
-  margin: 1em 0.75em 3em;
+  margin: 1em 0.75em 1.5em;
 }
 
 .equip-container img {

@@ -22,34 +22,34 @@ div.sl-landing {
 }
 
 .title-paragraph a {
-  color: inherit!important;
+  color: inherit !important;
 }
 
 .sl-announcement-label,
 .sl-announcement-title {
-  font-family: "Proxima Nova"!important;
+  font-family: "Proxima Nova" !important;
   font-weight: 600;
   margin: 0 0 0.25em;
 }
 
 .sl-announcement-label {
   text-transform: uppercase;
-  color: #525F5B!important;
-  font-size: 1em!important;
+  color: #525f5b !important;
+  font-size: 1em !important;
 }
 
 .sl-announcement-title {
-  color: #363A39!important;
-  font-size: 2.441em!important;
+  color: #363a39 !important;
+  font-size: 2.441em !important;
 }
 
 .sl-section.sl-announcement-row {
-  padding-bottom: 0.8em!important;
+  padding-bottom: 0.8em !important;
   min-height: unset;
 }
 
 .sl-section.sl-announcement-image-row {
-  padding-top: 0!important;
+  padding-top: 0 !important;
   min-height: unset;
 }
 
@@ -59,8 +59,8 @@ div.sl-landing {
 }
 
 img.sl-announcement-image {
-  max-width: unset!Important;
-  width: 100%!Important;
+  max-width: unset !important;
+  width: 100% !important;
   position: relative;
   top: -20vh;
 }
@@ -73,8 +73,8 @@ img.sl-announcement-image {
 
 @media (max-width: 600px) {
   img.sl-announcement-image {
-    height: 100%!Important;
-    width: auto!important;
+    height: 100% !important;
+    width: auto !important;
   }
 }
 
@@ -84,12 +84,16 @@ img.sl-announcement-image {
 }
 
 .sl-home-image {
-  height: 100%!important;
-  width: auto!important;
-  max-width: unset!important;
-  max-height: unset!important;
-  min-width: unset!important;
-  min-height: unset!important;
+  height: 100% !important;
+  width: auto !important;
+  max-width: unset !important;
+  max-height: unset !important;
+  min-width: unset !important;
+  min-height: unset !important;
+}
+
+.sl-section>div>div>div>div.panel-grid {
+  margin-bottom: 0 !important;
 }
 
 .research-centers-container {
@@ -103,17 +107,17 @@ img.sl-announcement-image {
 .partner-logo {
   flex: 1;
   width: 25%;
-  padding: 2em;
+  padding: 0 2em;
   min-width: 16em;
   max-width: 20em;
 }
 
 .pad-me {
-  padding: 2.5em 6em;
+  padding: 0.75em 6em;
 }
 
-.sl-section.sl-news > div > div > div > div:first-of-type {
-  margin-bottom: 0!important;
+.sl-section.sl-news>div>div>div>div:first-of-type {
+  margin-bottom: 0 !important;
 }
 
 .sl-news-img img {
@@ -121,7 +125,7 @@ img.sl-announcement-image {
 }
 
 .sl-featured-post article {
-  padding-top: 0!Important;
+  padding-top: 0 !important;
 }
 
 .sl-featured-post header {
@@ -130,7 +134,7 @@ img.sl-announcement-image {
   height: 30vw;
   padding-bottom: 8.5em;
   overflow: hidden;
-  box-sizing: unset!important;
+  box-sizing: unset !important;
 }
 
 .sl-featured-post img {
@@ -155,11 +159,9 @@ img.sl-announcement-image {
   .sl-featured-post header {
     padding-bottom: 17.25em;
   }
-
   .sl-featured-post header {
     height: 60vw;
   }
-  
   .sl-featured-post img {
     margin-top: 0;
   }
@@ -168,7 +170,7 @@ img.sl-announcement-image {
 .sl-featured-post h2 {
   margin-left: calc(8vw + 16px);
   max-width: 78vw;
-  font-size: 2.5em!important;
+  font-size: 2.5em !important;
   font-weight: 700;
   font-family: "Proxima Nova";
   line-height: 1 !important;
@@ -207,13 +209,13 @@ img.sl-announcement-image {
 }
 
 .sl-posts article header .entry-title {
-  font-size: 1em!important;
-  line-height: 1!important;
+  font-size: 1em !important;
+  line-height: 1 !important;
 }
 
 .sl-posts article header .entry-title a {
-  line-height: 1!important;
-  font-size: 1em!important;
+  line-height: 1 !important;
+  font-size: 1em !important;
   font-weight: 600;
 }
 
@@ -243,12 +245,10 @@ img.sl-announcement-image {
   .sl-posts>*:nth-child(2) {
     margin-top: 9em;
   }
-  
   .sl-posts>*:nth-child(5),
   .sl-posts>*:nth-child(7) {
     margin-top: -10em;
   }
-  
   .sl-posts article {
     display: flex;
     width: calc(50% - 0.8em);
@@ -256,11 +256,9 @@ img.sl-announcement-image {
     margin: 0.3em;
     flex-direction: column;
   }
-  
   .sl-posts article header {
     width: 100%;
   }
-  
   .sl-posts article header .entry-title {
     width: 50%;
     font-size: 20px;
@@ -268,11 +266,9 @@ img.sl-announcement-image {
     margin: 0;
     margin-left: 0.3em;
   }
-  
   .sl-posts article header .entry-title a {
-    font-size: 1.25em!important;
+    font-size: 1.25em !important;
   }
-  
   .sl-posts article header img {
     width: 40%;
     height: auto;
@@ -286,51 +282,51 @@ div.sl-videos iframe {
 }
 
 .sl-outreach article,
-.sl-outreach .panel-grid-cell > div > div.panel-layout > div {
-  padding: 0!important;
-  margin: 0!important;
+.sl-outreach .panel-grid-cell>div>div.panel-layout>div {
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
-.sl-outreach-row > div {
+.sl-outreach-row>div {
   margin: auto;
 }
 
-.sl-outreach-row > .panel-grid-cell img {
+.sl-outreach-row>.panel-grid-cell img {
   object-fit: cover;
-  width: 100%!important;
-  height: auto!important;
-  max-width: unset!important;
-  max-height: unset!important;
-  min-width: unset!important;
-  min-height: unset!important;
+  width: 100% !important;
+  height: auto !important;
+  max-width: unset !important;
+  max-height: unset !important;
+  min-width: unset !important;
+  min-height: unset !important;
 }
 
-.sl-outreach-row > .panel-grid-cell p {
+.sl-outreach-row>.panel-grid-cell p {
   margin: 1em calc(8vw + 16px);
 }
 
 @media (min-width: 781px) {
-  .sl-outreach-row > .panel-grid-cell {
-    width: 50%!important;
+  .sl-outreach-row>.panel-grid-cell {
+    width: 50% !important;
   }
-  .sl-outreach-row > .panel-grid-cell p {
+  .sl-outreach-row>.panel-grid-cell p {
     width: 80%;
     margin: auto;
   }
 }
 
 p.sl-main-par {
-  color: #363A39!important;
-  font-size: 1.563em!important;
+  color: #363a39 !important;
+  font-size: 1.563em !important;
   font-weight: 600;
 }
 
 .sl-section.sl-outreach {
-  padding-bottom: 0!important;
+  padding-bottom: 0 !important;
 }
 
 @media (max-width: 925px) {
   .sl-outreach p.sl-header-caption {
-    font-size: 1em!important;
+    font-size: 1em !important;
   }
 }

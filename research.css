@@ -1,14 +1,11 @@
 /* RESEARCH PARTNERS PAGE */
 
-.navbar-default .navbar-nav > .active > [href*="partners"] {
+.navbar-default .navbar-nav>.active>[href*="partners"] {
   background: #e14433;
   border-color: #e14433;
 }
 
-#content
-  #page-page
-  .widget.widget_siteorigin-panels-postloop
-  .content-template-date {
+#content #page-page .widget.widget_siteorigin-panels-postloop .content-template-date {
   display: block;
   font-size: 13px;
 }
@@ -58,8 +55,8 @@
   .center-box:nth-child(3n + 1) {
     margin-right: 0.5em;
     margin-top: -2em;
-    flex-basis: calc(33% - 0.5em);
-    max-width: calc(33% - 0.5em);
+    flex-basis: 33%;
+    max-width: 33%;
   }
   .center-box:nth-child(3n + 2) {
     margin-left: 0.5em;
@@ -98,7 +95,7 @@
   }
 }
 
-.research-center > * {
+.research-center>* {
   transition: all 0.2s ease;
 }
 

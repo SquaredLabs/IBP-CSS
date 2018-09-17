@@ -62,7 +62,7 @@ body {
 .sl-section {
   min-height: 80vh;
   font-size: 16px;
-  padding: 4.768em 8vw !important;
+  padding: 3.052em 8vw !important;
   align-items: center !important;
 }
 
@@ -70,6 +70,16 @@ body {
   padding-left: 0 !important;
   padding-right: 0 !important;
   overflow: visible !important;
+}
+
+.sl-section.sl-row-top {
+  padding-bottom: 0 !important;
+  min-height: unset;
+}
+
+.sl-section.sl-row-bottom {
+  padding-top: 0 !important;
+  min-height: unset;
 }
 
 .sl-section.full-width .sl-header,
@@ -84,7 +94,7 @@ body {
 }
 
 .sl-header-sub {
-  color: #363A39 !important;
+  color: #363a39 !important;
   text-transform: uppercase;
 }
 
@@ -101,8 +111,8 @@ body {
   /* word-break: break-word; */
   text-transform: uppercase;
   font-weight: 700;
-  color: #525F5B !important;
-  font-size: 4.768em !important;
+  color: #525f5b !important;
+  font-size: 3.815em !important;
   margin-bottom: 0.25em;
   line-height: 1 !important;
 }
@@ -141,6 +151,6 @@ body {
   margin: 1.25em 0;
 }
 
-/* div.panel-row-style {
-  padding: 5em 0 !important
-} */
+*:focus {
+  outline: none !important;
+}
