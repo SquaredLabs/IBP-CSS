@@ -151,6 +151,13 @@ body {
   margin: 1.25em 0;
 }
 
+@media (min-width: 768px) {
+  .sl-body.narrow {
+    max-width: 42em;
+    margin: 1.25em auto;
+  }
+}
+
 *:focus {
   outline: none !important;
 }
