@@ -31,6 +31,7 @@
   margin: 0 0 0.15em;
   color: #363A39;
   font-weight: 700;
+  font-family: 'Proxima Nova';
 }
 
 .hi-tech-information p {
@@ -51,6 +52,10 @@
   color: #363A39;
 }
 
+.hi-tech-equipment-link {
+  margin-top: 1.5em;
+}
+
 .hi-tech-equipment-link p {
   margin-top: 0.75em;
   margin-bottom: 1em;
@@ -60,7 +65,7 @@
 
 .hi-tech-equipment-link .arrow {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.441em;
   text-decoration: none;
 }
 
