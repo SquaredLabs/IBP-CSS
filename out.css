@@ -248,6 +248,7 @@ nav.navbar-default .navbar-nav > li > a,
   margin: 0 0 0.15em;
   color: #363A39;
   font-weight: 700;
+  font-family: 'Proxima Nova';
 }.hi-tech-information p {
   font-size: 0.8em !important;
 }.hi-tech-button {
@@ -260,6 +261,8 @@ nav.navbar-default .navbar-nav > li > a,
   text-decoration: none !important;
   font-weight: 700;
   color: #363A39;
+}.hi-tech-equipment-link {
+  margin-top: 1.5em;
 }.hi-tech-equipment-link p {
   margin-top: 0.75em;
   margin-bottom: 1em;
@@ -267,7 +270,7 @@ nav.navbar-default .navbar-nav > li > a,
   text-align: center;
 }.hi-tech-equipment-link .arrow {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.441em;
   text-decoration: none;
 }.hi-tech-equip-flex-item {
   flex: 1;
@@ -668,7 +671,6 @@ a:focus .collapsed-information-display {
 }.sl-featured-post article {
   padding-top: 0 !important;
 }.sl-featured-post header {
-  margin-left: -1em;
   width: calc(100vw - 1em);
   height: 30vw;
   padding-bottom: 8.5em;
@@ -699,7 +701,7 @@ a:focus .collapsed-information-display {
     margin-top: 0;
   }
 }.sl-featured-post h2 {
-  margin-left: calc(8vw + 16px);
+  margin-left: 8vw;
   max-width: 78vw;
   font-size: 2.5em !important;
   font-weight: 700;
@@ -923,6 +925,11 @@ body {
   font-weight: 400;
   text-align: left;
   margin: 1.25em 0;
+}@media (min-width: 768px) {
+  .sl-body.narrow {
+    max-width: 42em;
+    margin: 1.25em auto;
+  }
 }*:focus {
   outline: none !important;
 }
